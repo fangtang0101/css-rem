@@ -4,6 +4,10 @@
     <script src="../common/vue.js"></script>
     <script src="../common/element.js"></script>
     <link rel="stylesheet" type="text/css" href="../common/element.css">
+    <script src="../common/less.min.js"></script>
+    <!-- 坑千万不能用这个 -->
+    <!-- <link rel="stylesheet/less" href="./home.less"> -->
+    <link rel="stylesheet" href="home.less">
     <title></title>
 </head>
 <body>
@@ -81,5 +85,7 @@ var Main = {
 var Ctor = Vue.extend(Main)
 new Ctor().$mount('#app')
 </script>
+
+
 
 </html>
